@@ -9,7 +9,8 @@
                 <attribute name="Class-Path" value="."/>
             </manifest>
             <fileset dir="C:/Users/Admin/git/IR/TIaFE/bin"/>
-            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Admin/git/IR/TIaFE/libs/weka.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Admin/git/IR/TIaFE/libs/commons-io-2.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/Users/Admin/git/IR/TIaFE/libs/jewelcli-0.7.6.jar"/>
         </jar>
     </target>
 </project>
